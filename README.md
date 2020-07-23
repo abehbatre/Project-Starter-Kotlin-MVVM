@@ -8,7 +8,7 @@ MVVM + ViewBinding + Rx + Fast Android Networking + Koin + Coil with example
 
 
 ### Screenshot
-![Screenshot](https://raw.githubusercontent.com/abehbatre/Project-Starter-Kotlin-MVVM/SS.png)
+![Screenshot](https://raw.githubusercontent.com/abehbatre/Project-Starter-Kotlin-MVVM/master/SS.png)
 
 ### Packages Tree
 ```
