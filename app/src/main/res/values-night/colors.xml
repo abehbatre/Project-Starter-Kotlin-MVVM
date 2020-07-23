@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#2C2C2C</color>
+    <color name="systemBar">#2B2E2E</color>
+    <color name="colorAccent">#EA4235</color>
+
+    <!--  pre-fix  -->
+    <color name="text_theme">#ffe</color>
+
+    <color name="overlay_dark_80">#CC1B1B1B</color>
+    <color name="systemSplashScreen">#E61B1B1B</color>
+
+    <color name="colorPrimary5">#1D1D1D</color>
+    <color name="colorPrimary10">#1D1D1D</color>
+    <color name="colorPrimary20">#2C2C2C</color>
+</resources>

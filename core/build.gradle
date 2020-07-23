@@ -1,0 +1,76 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+
+android {
+    compileSdkVersion 29
+
+    dexOptions { javaMaxHeapSize '4096m' }
+    kotlinOptions { jvmTarget = '1.8' }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+    defaultConfig {
+        multiDexEnabled true
+        minSdkVersion 17
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    // core -> androidx
+    implementation "androidx.vectordrawable:vectordrawable:$appcompat_version"
+    implementation "androidx.annotation:annotation:$appcompat_version"
+    implementation "androidx.core:core-ktx:$core_ktx_version"
+    implementation "androidx.fragment:fragment-ktx:$fragment_version"
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "com.google.android.material:material:$google_material_version"
+    implementation "androidx.browser:browser:1.2.0"
+    implementation 'androidx.preference:preference-ktx:1.1.1'
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+
+    // kotlin -> jetbrains
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    // Fast Android Networking
+    implementation 'com.amitshekhar.android:rx2-android-networking:1.0.2'
+    debugImplementation 'com.readystatesoftware.chuck:library:1.1.0'
+    releaseImplementation 'com.readystatesoftware.chuck:library-no-op:1.1.0'
+
+
+    // Third party -> github
+    implementation 'com.airbnb.android:lottie:3.4.1'
+    implementation 'com.androidadvance:topsnackbar:1.1.1'
+    implementation 'com.github.GrenderG:Toasty:1.4.2'
+    implementation 'com.github.mreram:showcaseview:1.1'
+    implementation 'io.github.inflationx:calligraphy3:3.1.1'
+    implementation 'io.github.inflationx:viewpump:2.0.3'
+    implementation('io.coil-kt:coil:0.11.0')
+
+}

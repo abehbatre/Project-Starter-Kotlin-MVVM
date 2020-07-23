@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    app:layout_scrollFlags="scroll|enterAlways">
+
+    <ImageView
+        android:id="@+id/toolbarBack"
+        android:layout_width="52dp"
+        android:layout_height="match_parent"
+        android:foreground="?selectableItemBackground"
+        android:padding="@dimen/spacing_large"
+        app:srcCompat="@drawable/ic_arrow_back"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/toolbarTitle"
+        style="@style/fontBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_xsmall"
+        android:layout_toEndOf="@id/toolbarBack"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:paddingTop="@dimen/spacing_large"
+        android:paddingBottom="@dimen/spacing_large"
+        android:text="@string/lorem"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/toolbarAction"
+        style="@style/fontBold"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:foreground="?selectableItemBackground"
+        android:gravity="center_vertical"
+        android:textAllCaps="true"
+        android:visibility="gone"
+        android:paddingStart="@dimen/spacing_middle"
+        android:paddingEnd="@dimen/spacing_middle"
+        tools:visibility="visible"
+        android:text="@string/app_name"
+        android:drawablePadding="@dimen/spacing_middle"
+        android:drawableTint="@color/white"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
+

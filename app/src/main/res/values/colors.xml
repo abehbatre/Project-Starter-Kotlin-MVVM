@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Author          : Aditya Pratama
+        Design Concept  : MATERIAL.IO
+        Color Generator : https://material.io/resources/color/#!/
+    -->
+    <color name="colorPrimary">#008659</color>
+    <color name="colorPrimaryDark">#00593B</color>
+    <color name="colorPrimaryLight">#55AE90</color>
+    <color name="colorPrimaryLighting">#53DDAF</color>
+    <color name="colorAccent">#FF6600</color>
+
+    <!--  pre-fix  -->
+    <color name="text_theme">#001</color>
+    <color name="overlay_dark_80">#CC000000</color>
+
+    <!--  Additional Color  -->
+    <color name="white">#ffffff</color>
+    <color name="black">#111</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="systemBar">#007552</color>
+    <color name="systemSplashScreen">#EBEFEE</color>
+
+
+    <color name="colorPrimary5">#08008659</color>
+    <color name="colorPrimary10">#0D008659</color>
+    <color name="colorPrimary20">#1D008659</color>
+    <color name="colorPrimary30">#2D008659</color>
+    <color name="colorPrimary40">#3D008659</color>
+    <color name="colorPrimary50">#4D008659</color>
+
+
+    <color name="colorAccent10">#0DFFB550</color>
+    <color name="colorAccent20">#1AFFB550</color>
+    <color name="colorAccent30">#33FFB550</color>
+    <color name="colorAccent40">#4DFFB550</color>
+    <color name="colorAccent50">#66FFB550</color>
+    <color name="colorAccent70">#CCFFB550</color>
+</resources>

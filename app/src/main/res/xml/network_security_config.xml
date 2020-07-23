@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--  KONIMEX INTERNAL URL  -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.23.191</domain>
+        <domain includeSubdomains="true">192.168.0.68</domain>
+        <domain includeSubdomains="true">10.8.0.14</domain>
+        <domain includeSubdomains="true">192.168.10.102</domain>
+        <domain includeSubdomains="true">192.168.23.246</domain>
+        <domain includeSubdomains="true">192.168.23.127</domain>
+        <domain includeSubdomains="true">jira.sofco</domain>
+        <domain includeSubdomains="true">konimex.com</domain>
+    </domain-config>
+</network-security-config>

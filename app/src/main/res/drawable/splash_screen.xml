@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/systemSplashScreen" />
+
+    <item android:gravity="center">
+
+        <bitmap
+            android:width="144px"
+            android:height="54px"
+            android:gravity="center"
+            android:src="@drawable/app_logo" />
+    </item>
+
+
+</layer-list>

@@ -1,0 +1,211 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--    Splash Screen    -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="WindowAnimationStyle">
+        <item name="android:windowEnterAnimation">@anim/move_right_in_activity</item>
+        <item name="android:windowExitAnimation">@anim/move_left_out_activity</item>
+    </style>
+    <!--    .Splash Screen    -->
+
+
+    <!-- TextView -->
+    <style name="defTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:autoLink">web</item>
+    </style>
+    <!-- .TextView   -->
+
+
+    <!--   TABS  -->
+    <style name="AditTab" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!--    Spinner    -->
+    <style name="SpinnerStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">#d1d1d1</item>
+        <item name="android:dividerHeight">0.5dp</item>
+    </style>
+    <!--    .Spinner    -->
+
+
+    <!--   FONT AREA   -->
+    <style name="fontBold">
+        <item name="fontPath">fonts/GoogleSans-Bold.ttf</item>
+    </style>
+
+    <style name="fontSmall">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="fontSmallBold">
+        <item name="android:textSize">12sp</item>
+        <item name="fontPath">fonts/samsung_bold.ttf</item>
+    </style>
+
+    <style name="fontNormal">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="fontNormalBold">
+        <item name="android:textSize">14sp</item>
+        <item name="fontPath">fonts/samsung_bold.ttf</item>
+    </style>
+
+    <style name="fontLarge">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="fontLargeBold">
+        <item name="android:textSize">20sp</item>
+        <item name="fontPath">fonts/samsung_bold.ttf</item>
+    </style>
+
+    <style name="FontToolbar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontPath">fonts/samsung_bold.ttf</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <!--   .FONT AREA   -->
+
+
+
+    <!--  NavigationDrawerStyle  -->
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">16sp</item><!-- text size in menu-->
+        <item name="android:listPreferredItemHeightSmall">56dp</item><!-- item size in menu-->
+        <item name="listPreferredItemHeightSmall">56dp</item><!-- item size in menu-->
+    </style>
+    <!--  .NavigationDrawerStyle  -->
+
+
+
+    <!--   DatePickerSpinner   -->
+    <style name="DatePickerSpinner">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/colorAccent</item>
+    </style>
+    <!--   .DatePickerSpinner   -->
+
+
+
+
+    <!--  AppMaterial  -->
+    <style name="AppMaterial" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/white</item>
+        <item name="android:dialogTheme">@style/Dialog.Theme</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationStyle</item>
+        <item name="android:windowActivityTransitions" tools:targetApi="lollipop">true</item>
+    </style>
+
+
+    <style name="Theme.AditTheme.WithToolbar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+
+    <style name="Theme.AditTheme.Rounded">
+        <item name="shapeAppearanceSmallComponent">@style/roundedSmallShapeAppearance</item>
+        <item name="shapeAppearanceMediumComponent">@style/roundedMediumShapeAppearance</item>
+        <item name="shapeAppearanceLargeComponent">@style/roundedLargeShapeAppearance</item>
+    </style>
+
+    <style name="Theme.AditTheme.Cut">
+        <item name="shapeAppearanceSmallComponent">@style/cutSmallShapeAppearance</item>
+        <item name="shapeAppearanceMediumComponent">@style/cutMediumShapeAppearance</item>
+        <item name="shapeAppearanceLargeComponent">@style/cutLargeShapeAppearance</item>
+    </style>
+
+
+    <style name="CustomToolbarStyle" parent="@style/Widget.MaterialComponents.Toolbar.Primary" />
+
+    <style name="roundedSmallShapeAppearance" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="roundedMediumShapeAppearance" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="roundedLargeShapeAppearance" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="cutSmallShapeAppearance" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="cutMediumShapeAppearance" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="cutLargeShapeAppearance" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Dialog.Theme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Theme for date picker dialogX-->
+    <style name="DatePickerThemeLight" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <!--Theme for time picker dialogX-->
+    <style name="TimePickerThemeLight" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="TextAppearance.Subhead.Bold" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Medium.Bold" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Drawer.Custom.Dark" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="colorControlHighlight">#26000000</item>
+        <item name="listPreferredItemHeightSmall">60dp</item>
+    </style>
+
+
+    <style name="MySpinnerDatePickerStyle" parent="MaterialAlertDialog.MaterialComponents.Title.Icon" tools:targetApi="m">
+        <item name="android:datePickerStyle">@style/MySpinnerDatePicker</item>
+    </style>
+
+    <style name="MySpinnerDatePicker" parent="MySpinnerDatePickerStyle">
+        <item name="android:datePickerMode" tools:targetApi="lollipop">spinner</item>
+    </style>
+
+</resources>

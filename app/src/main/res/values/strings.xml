@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_desc">Stok Opname</string>
+    <string name="author">Aditya P.</string>
+
+
+
+
+
+    <string name="txt_no_connection_title">Tidak ada koneksi</string>
+    <string name="txt_no_connection_desc">Sepertinya ponsel anda tidak terhubung dengan internet, apakah anda tetap ingin membuka aplikasi?</string>
+    <string name="txt_yes">Ya</string>
+    <string name="txt_no">Tidak</string>
+    <string name="err_404">Path not found</string>
+    <string name="err_405"><![CDATA[Metode Salah <-> Tidak Diizinkan]]></string>
+    <string name="err_500">Kesalahan didalam server</string>
+    <string name="err_0">Tidak dapat terhubung ke server | Request time out</string>
+    <string name="err_503">Server sedang maintenance</string>
+    <string name="err_666">Unexpected Error</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="bottom_sheet_handle_width">30dp</dimen>
+    <dimen name="bottom_sheet_handle_height">5dp</dimen>
+    <dimen name="bottom_sheet_handle_top_margin">8dp</dimen>
+    <dimen name="flux">25dp</dimen>
+</resources>

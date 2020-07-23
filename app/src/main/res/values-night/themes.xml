@@ -1,0 +1,30 @@
+<resources>
+    <!-- Application theme for dark theme. -->
+    <style name="Theme.AditTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorOnBackground">@color/secondBgDark</item>
+        <item name="colorOnError">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/colorAccent</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/secondBgDark</item>
+
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorSurface">@color/black</item>
+        <item name="toolbarStyle">@style/CustomToolbarStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="windowActionModeOverlay">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:textViewStyle">@style/defTextView</item>
+    </style>
+
+</resources>
