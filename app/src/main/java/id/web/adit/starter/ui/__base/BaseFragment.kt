@@ -1,9 +1,9 @@
 package id.web.adit.starter.ui.__base
 
 import androidx.annotation.LayoutRes
-import id.web.adit.core.base.MDVKFragment
+import id.web.adit.core.base.ExFragment
 
-abstract class BaseFragment(@LayoutRes layout: Int = 0) : MDVKFragment(layout) {
+abstract class BaseFragment(@LayoutRes layout: Int = 0) : ExFragment(layout) {
 
     fun baseActicity() = requireActivity() as BaseActivity
 

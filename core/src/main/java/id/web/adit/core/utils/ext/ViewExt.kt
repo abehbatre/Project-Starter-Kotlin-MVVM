@@ -29,7 +29,6 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.transition.Fade
 import androidx.transition.Transition
 import androidx.transition.TransitionManager
-import com.androidadvance.topsnackbar.TSnackbar
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import id.web.adit.core.utils.MaterialColor
@@ -87,21 +86,7 @@ fun View.toggleWithAnimation()  {
  * @param textColor     warna text
  * @param duration      durasi snackbar
  */
-fun View.snackbar(
-    msg: String,
-    bgColor: Int = MaterialColor.BLACK,
-    textColor : Int = MaterialColor.WHITE,
-    duration: Int = TSnackbar.LENGTH_SHORT
-) {
-    val snackbar = TSnackbar.make(this, msg, duration)
-    val snackbarView = snackbar.view
-    val textView = snackbarView.findViewById<View>(com.androidadvance.topsnackbar.R.id.snackbar_text) as TextView
-    snackbar.setActionTextColor(bgColor)
-    snackbarView.setBackgroundColor(bgColor)
-    textView.setTextColor(textColor)
 
-    snackbar.show()
-}
 fun View.snackbar(text: String, duration: Int = Snackbar.LENGTH_LONG, builder: Snackbar.() -> Unit = {}): Snackbar {
     val snackbar = Snackbar.make(this, text, duration)
     snackbar.builder()

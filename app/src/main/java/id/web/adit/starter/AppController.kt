@@ -7,7 +7,7 @@ import androidx.multidex.MultiDexApplication
 import com.androidnetworking.AndroidNetworking
 import id.web.adit.starter.di.appModule
 import id.web.adit.core.R
-import id.web.adit.core.base.MDVKPref
+import id.web.adit.core.base.ExPref
 import id.web.adit.starter.networking.clientInterceptor
 import id.web.adit.starter.di.repoModule
 import id.web.adit.starter.di.vmModule
@@ -81,7 +81,7 @@ class AppController : MultiDexApplication() {
         // —————————————————————————————————————————————————————————————————
         /** @SHARED_PREFERENCE */
         // —————————————————————————————————————————————————————————————————
-        MDVKPref.init(applicationContext)
+        ExPref.init(applicationContext)
     }
 
 

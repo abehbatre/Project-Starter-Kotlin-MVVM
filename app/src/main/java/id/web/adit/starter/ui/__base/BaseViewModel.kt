@@ -1,8 +1,8 @@
 package id.web.adit.starter.ui.__base
 
-import id.web.adit.core.base.MDVKViewModel
+import id.web.adit.core.base.ExViewModel
 
 
-abstract class BaseViewModel : MDVKViewModel() {
+abstract class BaseViewModel : ExViewModel() {
 
 }

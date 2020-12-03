@@ -74,4 +74,7 @@ data class ReposPojoItem(
     val url: String = "",
     val watchers: Int = 0,
     val watchers_count: Int = 0
-)
+) {
+    //  example manipulation data
+    val exFulname = "nama : $full_name"
+}

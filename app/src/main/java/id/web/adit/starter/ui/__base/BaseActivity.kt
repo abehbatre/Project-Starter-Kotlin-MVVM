@@ -4,14 +4,14 @@ import android.app.Dialog
 import android.content.Context
 import android.os.Bundle
 import androidx.annotation.LayoutRes
-import id.web.adit.core.base.MDVKActivity
+import id.web.adit.core.base.ExActivity
 import id.web.adit.core.utils.ext.changeSystemBarColor
 import id.web.adit.starter.BuildConfig
 import id.web.adit.starter.R
 import id.web.adit.starter.utils.showLoading
 import io.github.inflationx.viewpump.ViewPumpContextWrapper
 
-abstract class BaseActivity(@LayoutRes private val layout: Int = 0) : MDVKActivity(layout) {
+abstract class BaseActivity(@LayoutRes private val layout: Int = 0) : ExActivity(layout) {
     protected var back2Exit = false
 
     companion object {

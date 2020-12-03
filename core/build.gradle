@@ -66,7 +66,6 @@ dependencies {
 
     // Third party -> github
     implementation 'com.airbnb.android:lottie:3.4.1'
-    implementation 'com.androidadvance:topsnackbar:1.1.1'
     implementation 'com.github.GrenderG:Toasty:1.4.2'
     implementation 'com.github.mreram:showcaseview:1.1'
     implementation 'io.github.inflationx:calligraphy3:3.1.1'

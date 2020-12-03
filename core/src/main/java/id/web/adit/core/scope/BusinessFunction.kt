@@ -1,6 +1,6 @@
 package id.web.adit.core.scope
 
-
+// sofco graha
 // XXX Have an annotation @ReadOnly(true) / @ReadOnly(false) (default:@ReadOnly(true)) that says whether BF writes to DB or not.
 // Writing BFs are not allowed to be called directly from the UI but must be nested in the BusinessTaskCallStack within a BT call.
 

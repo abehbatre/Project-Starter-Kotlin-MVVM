@@ -36,7 +36,7 @@ import io.reactivex.disposables.CompositeDisposable
  * your view hierarchy or hold a reference back to the Activity or the Fragment.
  * ------------------------------------------------------------------------------------
  */
-abstract class MDVKViewModel : ViewModel(), LifecycleObserver {
+abstract class ExViewModel : ViewModel(), LifecycleObserver {
 
     protected val compositeDisposable by lazy { CompositeDisposable() }
 

@@ -28,7 +28,7 @@ import id.web.adit.core.utils.ext.logD
  * [GET]    -> val b = MDVKPref.getString(KEY)
  * ------------------------------------------------------------------------------------
  */
-object MDVKPref {
+object ExPref {
 
     private var mSharedPreferences: SharedPreferences? = null
 

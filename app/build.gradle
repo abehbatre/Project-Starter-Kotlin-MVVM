@@ -149,7 +149,6 @@ dependencies {
     // Third party -> github
     implementation 'com.airbnb.android:lottie:3.4.1'
     implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
-    implementation 'com.androidadvance:topsnackbar:1.1.1'
     implementation 'com.github.GrenderG:Toasty:1.4.2'
     implementation 'com.github.mreram:showcaseview:1.1'
     implementation 'com.karumi:dexter:6.2.1'
